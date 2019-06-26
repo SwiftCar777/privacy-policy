@@ -1,0 +1,139 @@
+@charset "utf-8"
+* {
+	margin:0;
+	padding:0;
+	outline:none;
+}
+
+html {
+	height:100%;
+	width:99%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	color: #333;
+	background: #fff;
+	font-size: 1em;
+	font-family: "Segoe UI", sans-serif;
+	line-height: 135%;
+}
+a {
+	color:#2890F4;
+	text-decoration: none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+a:hover {
+	color:#81B8FF;
+	text-decoration: none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+a:active {
+	color:#3699F7;
+}
+
+img {
+	max-width:100%;
+	height: auto;
+	width: auto/9;
+}
+hr {
+	display:block;
+	border:0;
+	height:1px;
+	border-top:1px solid #fff;
+	padding:0;
+}
+
+.clear{
+	clear:both
+}
+.left {
+	float:left;
+	margin-left: 20px;
+	margin-bottom:20px;
+}
+.rigth {
+	display:block;
+	float:right;
+	margin-left:20px;
+}
+
+/*Установка стиля для выделения текста*/
+
+::selection {background-color #81B8FF; color:#81B8FF}
+::-moz-selection {background #81B8FF; color:#ccc}
+
+
+#zagolovok {
+	font-size: 1.5em;
+	margin-left: 20px;
+}
+
+.contact {
+	font-size:1.5em;
+	font-family:Comic Sans MS, sans-serif;
+	margin-left:20px;
+}
+
+
+#tex {
+	margin-left:20px;
+	margin-right:20px;
+	float:justify;
+	text-indent:25px;
+}
+#t1{
+	font-size:1.3em;
+	margin-bottom:20px;
+	margin-top:20px;
+	
+}
+#tz{
+	margin-bottom:15px;
+	margin-top:15px;
+}
+#niz{
+	color:#fff;
+	margin-left:20px;
+}
+
+
+#menu {
+	
+	font-size:1.7em;
+}
+#menu hr{
+	width:500px;
+	max-width:100%;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+#menuHrefs a {
+	float:center;
+	padding:5px;
+	border-radius:5px;
+	margin-right:5px;
+	color: #fff;
+}
+#menuHrefs a:hover {
+	background-color:#bcbcbc
+}
+
+
+#page-wrap:after{
+	content:"";
+	display:block;
+}
+
+#page-wrap{
+	min-height:94%;
+	margin-bottom:0px;
+}
